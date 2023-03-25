@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "<h1>welcome to javatechie !</h1>";
+        return "<h1 style=\"color:blue;\">welcome to javatechie !</h1>";
     }
 
     /*
