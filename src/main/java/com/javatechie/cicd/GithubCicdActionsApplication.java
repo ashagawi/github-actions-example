@@ -18,9 +18,9 @@ public class GithubCicdActionsApplication {
     echo "# github-actions-example" >> README.md
     git init
     git add README.md
-    git commit -m "first commit"
+    git commit -m "code"
     git branch -M master
-    git remote add origin https://github.com/twsila/github-actions-example.git
+    git remote add origin https://github.com/ashagawi/github-actions-example.git
     git push -u origin main
      */
     public static void main(String[] args) {
