@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "welcome to javatechie !";
+        return "<h1>welcome to javatechie !</h1>";
     }
 
     /*
